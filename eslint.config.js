@@ -15,7 +15,7 @@ module.exports = [
   },
   js.configs.recommended,
   {
-    files: ['app.js', 'jest.setup.js', '*.spec.js'],
+    files: ['app.js', 'jest.setup.js', 'playwright.config.js', '**/*.spec.js'],
     languageOptions: {
       ecmaVersion: 2018,
       sourceType: 'commonjs',
